@@ -7,7 +7,7 @@ from copy import deepcopy
 import numpy as np
 import os
 import tensorflow as tf
-import tensorflow.contrib.slim as slim
+import tf_slim as slim
 import warnings
 
 from .configs import default_architecture_config
