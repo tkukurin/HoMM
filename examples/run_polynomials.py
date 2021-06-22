@@ -128,7 +128,7 @@ class poly_HoMM_model(HoMM_model.HoMM_model):
 ## running stuff
 for run_i in range(run_config["run_offset"], run_config["run_offset"] + run_config["num_runs"]):
     np.random.seed(run_i)
-    tf.set_random_seed(run_i)
+    tf.random.set_seed(run_i)
     run_config["this_run"] = run_i
 
     model = poly_HoMM_model(run_config=run_config)
