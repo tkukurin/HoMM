@@ -26,7 +26,7 @@ class memory_buffer(object):
             num_events = length
             self.input_buffer = input_mat[-length:, :]
             self.outcome_buffer = outcome_mat[-length:, :]
-            self.curr_index = 0.
+            self.curr_index = 0
             return
         end_offset = num_events + self.curr_index
         if end_offset > self.length:
