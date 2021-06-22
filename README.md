@@ -1,8 +1,11 @@
-# HoMM 
+# HoMM
+
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tkukurin/HoMM/blob/master/PolyColabExample.ipynb)
 
 A library for meta-mapping (<https://arxiv.org/abs/2005.04318>).
 
-**Meta-mapping** provides a new perspective on zero-shot task performance, by framing it as a problem of transforming a prior task. 
+**Meta-mapping** provides a new perspective on zero-shot task performance, by framing it as a problem of transforming a prior task.
 
 **HoMM** provides a parsimonious homoiconic implementation of this framework.
 
@@ -10,10 +13,10 @@ See the examples and paper for further details. The application to the domains f
 
 Polynomial domain experiments: code in the examples folder and at <https://github.com/lampinen/HoMM_polynomial_analysis>
 
-Card games domain: <https://github.com/lampinen/HoMM_cards> 
+Card games domain: <https://github.com/lampinen/HoMM_cards>
 
 RL domain: <https://github.com/lampinen/homm_grids>
 
-Visual concepts domain: <https://github.com/lampinen/categorization_HoMM> 
+Visual concepts domain: <https://github.com/lampinen/categorization_HoMM>
 
 This code has generally been tested with CUDA 10, Tensorflow 1.14, and Python 3.6.
